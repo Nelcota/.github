@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nelcota/.github/main/profile/logo-dark.svg">
-    <img src="https://raw.githubusercontent.com/Nelcota/.github/main/profile/logo-light.svg" alt="Nelcota" width="320" height="120">
+    <img src="https://raw.githubusercontent.com/Nelcota/.github/main/profile/logo-light.svg" alt="Nelcota" width="480" height="180">
   </picture>
 </p>
 
