@@ -1,108 +1,104 @@
-<a href="https://nelcota.com">
+<div align="center">
+
+<a href="https://github.com/Nelcota/NelcotaJS">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nelcota/.github/main/profile/banner-dark.svg">
-    <img src="https://raw.githubusercontent.com/Nelcota/.github/main/profile/banner-light.svg" alt="Nelcota: own the whole stack. Data, deploy, interface and team tools in one open-source ecosystem." width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nelcota/NelcotaJS/main/.github/assets/logo-dark-mode.png">
+    <img src="https://raw.githubusercontent.com/Nelcota/NelcotaJS/main/.github/assets/logo-light-mode.png" alt="NelcotaJS" width="120" height="120">
   </picture>
 </a>
 
-<div align="center">
+# NelcotaJS
 
-[![nelcota.com](https://img.shields.io/badge/nelcota.com-1F2328?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI0VBNDMzNSIgZD0iTTEyIDEyTDIuNDc0IDYuNUExMSAxMSAwIDAgMSAyMS41MjYgNi41WiIvPjxwYXRoIGZpbGw9IiNGQkJDMDQiIGQ9Ik0xMiAxMkwyMS41MjYgNi41QTExIDExIDAgMCAxIDEyIDIzWiIvPjxwYXRoIGZpbGw9IiMzNEE4NTMiIGQ9Ik0xMiAxMkwxMiAyM0ExMSAxMSAwIDAgMSAyLjQ3NCA2LjVaIi8%2BPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iNS4yIiBmaWxsPSIjZmZmIi8%2BPGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iNC4xIiBmaWxsPSIjNDI4NUY0Ii8%2BPC9zdmc%2BCg%3D%3D)](https://nelcota.com)
-[![Docs](https://img.shields.io/badge/docs-F97316?style=for-the-badge&logo=gitbook&logoColor=white)](https://nelcota.com/docs/)
-[![Release](https://img.shields.io/github/v/release/Nelcota/Nelcota?style=for-the-badge&logo=github&logoColor=white&label=release&color=2EA043)](https://github.com/Nelcota/Nelcota/releases)
-[![Stars](https://img.shields.io/github/stars/Nelcota/Nelcota?style=for-the-badge&logo=githubsponsors&logoColor=white&label=stars&color=E3B341)](https://github.com/Nelcota/Nelcota)
+**Fine-grained reactivity. Secure by default. Zero browser dependencies.**
+
+[![Repository](https://img.shields.io/badge/Nelcota%2FNelcotaJS-1F2328?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nelcota/NelcotaJS)
+[![npm](https://img.shields.io/npm/v/@nelcota/core?style=for-the-badge&logo=npm&logoColor=white&label=%40nelcota%2Fcore&color=CB3837)](https://www.npmjs.com/package/@nelcota/core)
+[![CI](https://img.shields.io/github/actions/workflow/status/Nelcota/NelcotaJS/ci.yml?branch=main&style=for-the-badge&logo=githubactions&logoColor=white&label=CI)](https://github.com/Nelcota/NelcotaJS/actions/workflows/ci.yml)
+[![Stars](https://img.shields.io/github/stars/Nelcota/NelcotaJS?style=for-the-badge&logo=githubsponsors&logoColor=white&label=stars&color=E3B341)](https://github.com/Nelcota/NelcotaJS)
 
 </div>
 
-<h3 align="center">Stop renting your infrastructure. Run all of it yourself.</h3>
-
 <p align="center">
-Nelcota is an open-source ecosystem for building and running software end to end:<br>
-the database and API, the deploy pipeline, the frontend framework and the tools your team uses every day.<br>
-<b>Every piece is self-hosted, so the stack, the data and the bill stay yours.</b>
+A reactive frontend framework in TypeScript built on signals.<br>
+Components run once, and only the DOM nodes bound to a signal update.<br>
+<b>Safe output by default, web standards only, and core + dom under 9 kB gzip.</b>
 </p>
 
-<br>
+> [!WARNING]
+> **Pre-alpha.** Client-side rendering only, with SSR and islands planned. Early releases are on npm and the API may still change.
 
-## The stack
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🐘 Data &amp; API
-**[Nelcota](https://github.com/Nelcota/Nelcota)**
-
-Your PostgreSQL schema becomes a complete backend: REST API, auth, file storage, webhooks and an admin panel, in a single Rust binary. Row-level security decides what every request can do.
-
-![Rust](https://img.shields.io/badge/Rust-CE422B?style=flat-square&logo=rust&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL_17-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-
-</td>
-<td width="50%" valign="top">
-
-### 🚀 Deploy
-**[NelcotaDeploy](https://github.com/Nelcota/NelcotaDeploy)**
-
-Push to GitHub, get a running container with HTTPS, logs, metrics, uptime checks, previews, databases and automatic rollback. One VPS or many over SSH.
-
-![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Traefik](https://img.shields.io/badge/Traefik-24A1C1?style=flat-square&logo=traefikproxy&logoColor=white)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ⚛️ Interface
-**[NelcotaJS](https://github.com/Nelcota/NelcotaJS)** <sup>pre-alpha</sup>
-
-A reactive frontend framework built on signals: components run once and only the bound DOM nodes update. Secure by default and under 9 kB gzip.
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-</td>
-<td width="50%" valign="top">
-
-### 👥 Team
-**[NelcotaScreenShare](https://github.com/Nelcota/NelcotaScreenShare)** · **[NelcotaPrompts](https://github.com/Nelcota/NelcotaPrompts)**
-
-Screen sharing with audio and chat, and a private prompt library with variables, version history and full-text search. Tools your team owns instead of subscribes to.
-
-![LiveKit](https://img.shields.io/badge/LiveKit-1F2328?style=flat-square&logo=webrtc&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white)
-
-</td>
-</tr>
-</table>
-
-**SDKs:** [`@nelcota/client`](https://github.com/Nelcota/Nelcota/tree/main/sdk/typescript) · [`@nelcota/nextjs`](https://github.com/Nelcota/Nelcota/tree/main/sdk/nextjs) · [`@nelcota/ssr`](https://github.com/Nelcota/Nelcota/tree/main/sdk/ssr) · [`nelcota-client`](https://github.com/Nelcota/Nelcota/tree/main/sdk/rust) for Rust<br>
-**Website:** [NelcotaWebsite](https://github.com/Nelcota/NelcotaWebsite), the site and docs in English and Portuguese, built with Astro.
-
-## Try it
-
-```sh
-curl -fsSL https://raw.githubusercontent.com/Nelcota/Nelcota/main/scripts/install.sh | NELCOTA_SKIP_DOCKER=1 sh
-mkdir my-app && cd my-app
-nelcota dev   # PostgreSQL, the API and the admin panel, running locally
-```
-
-Write your tables in SQL, run `nelcota migrate` and the API is live. The [quickstart](https://github.com/Nelcota/Nelcota/blob/main/docs/quickstart.md) takes it from there, and the [self-hosting guide](https://github.com/Nelcota/Nelcota/blob/main/docs/deploy.md) puts it in production.
-
-## Why Nelcota
+## Why NelcotaJS
 
 | | |
 | --- | --- |
-| 🏠 **Yours to run** | Everything runs on a server you control, from a single VPS up. |
-| 🧱 **Built on standards** | PostgreSQL, SQL, Docker and web standards instead of proprietary layers. |
-| ⚡ **Small and fast** | Single binaries, few moving parts, size and performance budgets enforced in CI. |
-| 🛡️ **Secure by default** | Safe defaults out of the box, and the unsafe path is always explicit. |
-| 🔓 **No lock-in** | Your data and code stay portable, and [leaving is documented](https://github.com/Nelcota/Nelcota/blob/main/docs/leaving.md). |
+| ⚡ **Signals, not re-renders** | Components run once. The compiler turns `{count()}` into a binding, so a change touches only that text node. |
+| 🛡️ **Safe by default** | Escaped output, blocked `javascript:` URLs, strict CSP and Trusted Types. Raw HTML only through an explicit `unsafeHTML`. |
+| 🧩 **Just TSX** | Full editor support with no custom language server, and source maps back to your code. |
+| 🪶 **Size budgets** | Base `core` + `dom` target 9 kB gzip, enforced in CI. Optional features are measured separately. |
+| 🌐 **Web standards only** | No third-party code shipped to the browser. |
+
+## A taste
+
+```tsx
+import { computed, signal } from "@nelcota/core";
+import { render } from "@nelcota/dom";
+
+function Counter() {
+  const count = signal(0);
+  const double = computed(() => count() * 2);
+
+  return (
+    <button type="button" onClick={() => count.set(count() + 1)}>
+      Clicks: {count()} (double: {double()})
+    </button>
+  );
+}
+
+render(() => <Counter />, document.getElementById("app")!);
+```
+
+## Get started
+
+```sh
+bun add @nelcota/core @nelcota/dom
+bun add -d vite-plugin-nelcota
+```
+
+```ts
+// vite.config.ts
+import { defineConfig } from "vite";
+import nelcota from "vite-plugin-nelcota";
+
+export default defineConfig({ plugins: [nelcota()] });
+```
+
+The [examples](https://github.com/Nelcota/NelcotaJS/tree/main/examples) cover a counter, a todo list, async data and a full-stack dashboard.
+
+## Packages
+
+| Package | What it does |
+| --- | --- |
+| [`@nelcota/core`](https://github.com/Nelcota/NelcotaJS/tree/main/packages/core) | Signals, computeds, effects, `batch`, `untrack`, roots, context and `catchError`. Async computeds live in `@nelcota/core/async`. |
+| [`@nelcota/dom`](https://github.com/Nelcota/NelcotaJS/tree/main/packages/dom) | Renderer, JSX runtime, `For`, `Show`, `spread` and `unsafeHTML`, plus optional context, error boundary and loading entries. |
+| [`@nelcota/compiler`](https://github.com/Nelcota/NelcotaJS/tree/main/packages/compiler) | TSX to cloned templates and fine-grained bindings with source maps, built on Oxc. |
+| [`vite-plugin-nelcota`](https://github.com/Nelcota/NelcotaJS/tree/main/packages/vite-plugin-nelcota) | Vite integration with HMR and source maps. |
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white) ![Oxc](https://img.shields.io/badge/Oxc-1F2328?style=flat-square)
+
+## Learn more
+
+- **Guides:** [Async computations and loading](https://github.com/Nelcota/NelcotaJS/blob/main/docs/guides/async-computations.md) · [Debugging, context and recovery](https://github.com/Nelcota/NelcotaJS/blob/main/docs/guides/developer-foundations.md) · [Benchmarks](https://github.com/Nelcota/NelcotaJS/blob/main/docs/guides/benchmarks.md)
+- **Design:** [Signals RFC](https://github.com/Nelcota/NelcotaJS/blob/main/docs/rfcs/0001-signals.md) · [Async computations RFC](https://github.com/Nelcota/NelcotaJS/blob/main/docs/rfcs/0003-async-computations.md) · [Router RFC](https://github.com/Nelcota/NelcotaJS/blob/main/docs/rfcs/0004-router.md)
+- **Project:** [Roadmap](https://github.com/Nelcota/NelcotaJS/blob/main/docs/project/roadmap.md) · [Decisions](https://github.com/Nelcota/NelcotaJS/blob/main/docs/project/decisions.md)
 
 ## Contribute
 
-Pick a project, read the [contributing guide](https://github.com/Nelcota/.github/blob/main/CONTRIBUTING.md) and open an issue or pull request. Questions go through the [support guide](https://github.com/Nelcota/.github/blob/main/SUPPORT.md), and everyone follows the [code of conduct](https://github.com/Nelcota/.github/blob/main/CODE_OF_CONDUCT.md).
+Read the [contributing guide](https://github.com/Nelcota/NelcotaJS/blob/main/CONTRIBUTING.md) and open an issue or pull request on [NelcotaJS](https://github.com/Nelcota/NelcotaJS). Questions go through the [support guide](https://github.com/Nelcota/.github/blob/main/SUPPORT.md), and everyone follows the [code of conduct](https://github.com/Nelcota/.github/blob/main/CODE_OF_CONDUCT.md).
 
-Found a vulnerability? Report it privately through **GitHub Security Advisories** in the affected repository, as described in the [security policy](https://github.com/Nelcota/.github/blob/main/SECURITY.md).
+Found a vulnerability? Report it privately through **GitHub Security Advisories**, as described in the [security policy](https://github.com/Nelcota/NelcotaJS/blob/main/SECURITY.md).
 
 <div align="center">
 <br>
-<sub><a href="https://nelcota.com">nelcota.com</a> · open source, self-hosted, yours</sub>
+<sub>Also from Nelcota: <a href="https://github.com/Nelcota/Nelcota">Nelcota</a> (Postgres backend) · <a href="https://github.com/Nelcota/NelcotaDeploy">NelcotaDeploy</a> · <a href="https://github.com/Nelcota/NelcotaScreenShare">NelcotaScreenShare</a> · <a href="https://github.com/Nelcota/NelcotaPrompts">NelcotaPrompts</a></sub><br>
+<sub><a href="https://nelcota.com">nelcota.com</a> · MIT licensed</sub>
 </div>
