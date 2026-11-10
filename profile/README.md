@@ -11,21 +11,18 @@
 
 **Fine-grained reactivity. Secure by default. Zero browser dependencies.**
 
-[![Repository](https://img.shields.io/badge/Nelcota%2FNelcotaJS-1F2328?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nelcota/NelcotaJS)
-[![npm](https://img.shields.io/npm/v/@nelcota/core?style=for-the-badge&logo=npm&logoColor=white&label=%40nelcota%2Fcore&color=CB3837)](https://www.npmjs.com/package/@nelcota/core)
+A reactive frontend framework in TypeScript built on signals.<br>
+Components run once, and only the DOM nodes bound to a signal update.
+
+[![npm](https://img.shields.io/npm/v/@nelcota/core?style=for-the-badge&logo=npm&logoColor=white&label=npm&color=CB3837)](https://www.npmjs.com/package/@nelcota/core)
 [![CI](https://img.shields.io/github/actions/workflow/status/Nelcota/NelcotaJS/ci.yml?branch=main&style=for-the-badge&logo=githubactions&logoColor=white&label=CI)](https://github.com/Nelcota/NelcotaJS/actions/workflows/ci.yml)
-[![Stars](https://img.shields.io/github/stars/Nelcota/NelcotaJS?style=for-the-badge&logo=githubsponsors&logoColor=white&label=stars&color=E3B341)](https://github.com/Nelcota/NelcotaJS)
+[![Size](https://img.shields.io/badge/core_%2B_dom-%E2%89%A4_9_kB_gzip-15803D?style=for-the-badge)](https://github.com/Nelcota/NelcotaJS/blob/main/.size-limit.json)
+[![License](https://img.shields.io/badge/license-MIT-1F6FEB?style=for-the-badge)](https://github.com/Nelcota/NelcotaJS/blob/main/LICENSE)
+[![Stars](https://img.shields.io/github/stars/Nelcota/NelcotaJS?style=for-the-badge&logo=github&logoColor=white&label=stars&color=E3B341)](https://github.com/Nelcota/NelcotaJS)
+
+<sub>⚠️ <b>Pre-alpha</b> · client-side rendering only, SSR and islands planned · the API may still change</sub>
 
 </div>
-
-<p align="center">
-A reactive frontend framework in TypeScript built on signals.<br>
-Components run once, and only the DOM nodes bound to a signal update.<br>
-<b>Safe output by default, web standards only, and core + dom under 9 kB gzip.</b>
-</p>
-
-> [!WARNING]
-> **Pre-alpha.** Client-side rendering only, with SSR and islands planned. Early releases are on npm and the API may still change.
 
 ## Why NelcotaJS
 
@@ -33,44 +30,33 @@ Components run once, and only the DOM nodes bound to a signal update.<br>
 <tr>
 <td width="33%" valign="top">
 
-### ⚡ Signals, not re-renders
+#### ⚡ Signals, not re-renders
 
 Components run once. `{count()}` compiles to a binding, so a change touches only that text node.
 
+#### 🪶 Tiny by budget
+
+`core` + `dom` stay under 9 kB gzip, enforced in CI. Optional features are measured on their own.
+
 </td>
 <td width="33%" valign="top">
 
-### 🛡️ Safe by default
+#### 🛡️ Safe by default
 
 Escaped output, blocked `javascript:` URLs, strict CSP and Trusted Types. Raw HTML only through `unsafeHTML`.
 
-</td>
-<td width="33%" valign="top">
-
-### 🧩 Just TSX
-
-Full editor support, no custom language server, and source maps back to your code.
-
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-
-### 🪶 Tiny by budget
-
-`core` + `dom` stay under **9 kB gzip**, enforced in CI. Optional features are measured on their own.
-
-</td>
-<td width="33%" valign="top">
-
-### ⏳ Async built in
+#### ⏳ Async built in
 
 Async computeds and `isPending` handle loading, failure, retry and cancellation.
 
 </td>
 <td width="33%" valign="top">
 
-### 🌐 Web standards only
+#### 🧩 Just TSX
+
+Full editor support, no custom language server, and source maps back to your code.
+
+#### 🌐 Web standards only
 
 No third-party code shipped to the browser. Just the platform and your app.
 
@@ -121,34 +107,22 @@ The [examples](https://github.com/Nelcota/NelcotaJS/tree/main/examples) cover a 
 <tr>
 <td width="50%" valign="top">
 
-### 🧠 [`@nelcota/core`](https://github.com/Nelcota/NelcotaJS/tree/main/packages/core)
-[![npm](https://img.shields.io/npm/v/@nelcota/core?style=flat-square&color=CB3837&label=npm)](https://www.npmjs.com/package/@nelcota/core)
+#### 🧠 [@nelcota/core](https://github.com/Nelcota/NelcotaJS/tree/main/packages/core) &nbsp;[![npm](https://img.shields.io/npm/v/@nelcota/core?style=flat-square&color=CB3837&label=)](https://www.npmjs.com/package/@nelcota/core)
 
 The reactive engine: signals, computeds, effects, `batch`, `untrack`, roots and context. Async computeds live in `@nelcota/core/async`.
 
-</td>
-<td width="50%" valign="top">
-
-### 🖼️ [`@nelcota/dom`](https://github.com/Nelcota/NelcotaJS/tree/main/packages/dom)
-[![npm](https://img.shields.io/npm/v/@nelcota/dom?style=flat-square&color=CB3837&label=npm)](https://www.npmjs.com/package/@nelcota/dom)
-
-Renderer and JSX runtime with `For`, `Show` and `spread`, plus optional context, error boundary and loading entries.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ⚙️ [`@nelcota/compiler`](https://github.com/Nelcota/NelcotaJS/tree/main/packages/compiler)
-[![npm](https://img.shields.io/npm/v/@nelcota/compiler?style=flat-square&color=CB3837&label=npm)](https://www.npmjs.com/package/@nelcota/compiler)
+#### ⚙️ [@nelcota/compiler](https://github.com/Nelcota/NelcotaJS/tree/main/packages/compiler) &nbsp;[![npm](https://img.shields.io/npm/v/@nelcota/compiler?style=flat-square&color=CB3837&label=)](https://www.npmjs.com/package/@nelcota/compiler)
 
 Turns TSX into cloned templates and fine-grained bindings, with source maps. Built on Oxc.
 
 </td>
 <td width="50%" valign="top">
 
-### 🔌 [`vite-plugin-nelcota`](https://github.com/Nelcota/NelcotaJS/tree/main/packages/vite-plugin-nelcota)
-[![npm](https://img.shields.io/npm/v/vite-plugin-nelcota?style=flat-square&color=CB3837&label=npm)](https://www.npmjs.com/package/vite-plugin-nelcota)
+#### 🖼️ [@nelcota/dom](https://github.com/Nelcota/NelcotaJS/tree/main/packages/dom) &nbsp;[![npm](https://img.shields.io/npm/v/@nelcota/dom?style=flat-square&color=CB3837&label=)](https://www.npmjs.com/package/@nelcota/dom)
+
+Renderer and JSX runtime with `For`, `Show` and `spread`, plus optional context, error boundary and loading entries.
+
+#### 🔌 [vite-plugin-nelcota](https://github.com/Nelcota/NelcotaJS/tree/main/packages/vite-plugin-nelcota) &nbsp;[![npm](https://img.shields.io/npm/v/vite-plugin-nelcota?style=flat-square&color=CB3837&label=)](https://www.npmjs.com/package/vite-plugin-nelcota)
 
 Drop-in Vite integration with HMR and source maps. One line in `vite.config.ts`.
 
@@ -156,13 +130,7 @@ Drop-in Vite integration with HMR and source maps. One line in `vite.config.ts`.
 </tr>
 </table>
 
-<p align="center">
-<sub>Built with</sub><br>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
-<img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
-<img src="https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white" alt="Bun">
-<img src="https://img.shields.io/badge/Oxc-1F2328?style=flat-square" alt="Oxc">
-</p>
+**Built with** &nbsp;![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white) ![Oxc](https://img.shields.io/badge/Oxc-1F2328?style=flat-square)
 
 ## Learn more
 
@@ -170,7 +138,9 @@ Drop-in Vite integration with HMR and source maps. One line in `vite.config.ts`.
 <tr>
 <td width="33%" valign="top">
 
-### 📘 Guides
+#### 📘 Guides
+
+Hands-on walkthroughs for everyday work.
 
 - [Async computations and loading](https://github.com/Nelcota/NelcotaJS/blob/main/docs/guides/async-computations.md)
 - [Debugging, context and recovery](https://github.com/Nelcota/NelcotaJS/blob/main/docs/guides/developer-foundations.md)
@@ -179,7 +149,9 @@ Drop-in Vite integration with HMR and source maps. One line in `vite.config.ts`.
 </td>
 <td width="33%" valign="top">
 
-### 📐 Design
+#### 📐 Design
+
+The reasoning behind each core decision.
 
 - [Signals RFC](https://github.com/Nelcota/NelcotaJS/blob/main/docs/rfcs/0001-signals.md)
 - [Async computations RFC](https://github.com/Nelcota/NelcotaJS/blob/main/docs/rfcs/0003-async-computations.md)
@@ -188,7 +160,9 @@ Drop-in Vite integration with HMR and source maps. One line in `vite.config.ts`.
 </td>
 <td width="33%" valign="top">
 
-### 🗺️ Project
+#### 🗺️ Project
+
+Where NelcotaJS is today and where it is going.
 
 - [Roadmap](https://github.com/Nelcota/NelcotaJS/blob/main/docs/project/roadmap.md)
 - [Decisions](https://github.com/Nelcota/NelcotaJS/blob/main/docs/project/decisions.md)
@@ -202,17 +176,15 @@ Drop-in Vite integration with HMR and source maps. One line in `vite.config.ts`.
 
 Issues and pull requests are welcome on [NelcotaJS](https://github.com/Nelcota/NelcotaJS). Start here:
 
-<p>
-<a href="https://github.com/Nelcota/NelcotaJS/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/Contributing_guide-2EA043?style=for-the-badge&logo=github&logoColor=white" alt="Contributing guide"></a>
-<a href="https://github.com/Nelcota/NelcotaJS/issues"><img src="https://img.shields.io/badge/Open_an_issue-1F2328?style=for-the-badge&logo=github&logoColor=white" alt="Open an issue"></a>
-<a href="https://github.com/Nelcota/.github/blob/main/SUPPORT.md"><img src="https://img.shields.io/badge/Support-1F6FEB?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Support"></a>
-<a href="https://github.com/Nelcota/.github/blob/main/CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Code_of_conduct-8250DF?style=for-the-badge&logo=handshake&logoColor=white" alt="Code of conduct"></a>
-</p>
+[![Contributing guide](https://img.shields.io/badge/Contributing_guide-2EA043?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nelcota/NelcotaJS/blob/main/CONTRIBUTING.md)
+[![Open an issue](https://img.shields.io/badge/Open_an_issue-1F2328?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nelcota/NelcotaJS/issues)
+[![Support](https://img.shields.io/badge/Support-1F6FEB?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/Nelcota/.github/blob/main/SUPPORT.md)
+[![Code of conduct](https://img.shields.io/badge/Code_of_conduct-8250DF?style=for-the-badge&logo=handshake&logoColor=white)](https://github.com/Nelcota/.github/blob/main/CODE_OF_CONDUCT.md)
 
 > [!IMPORTANT]
 > **Found a vulnerability?** Don't open a public issue. Report it privately through GitHub Security Advisories, as described in the [security policy](https://github.com/Nelcota/NelcotaJS/blob/main/SECURITY.md).
 
-<br>
+---
 
 <div align="center">
 
