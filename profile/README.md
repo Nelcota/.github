@@ -166,18 +166,63 @@ Drop-in Vite integration with HMR and source maps. One line in `vite.config.ts`.
 
 ## Learn more
 
-- **Guides:** [Async computations and loading](https://github.com/Nelcota/NelcotaJS/blob/main/docs/guides/async-computations.md) · [Debugging, context and recovery](https://github.com/Nelcota/NelcotaJS/blob/main/docs/guides/developer-foundations.md) · [Benchmarks](https://github.com/Nelcota/NelcotaJS/blob/main/docs/guides/benchmarks.md)
-- **Design:** [Signals RFC](https://github.com/Nelcota/NelcotaJS/blob/main/docs/rfcs/0001-signals.md) · [Async computations RFC](https://github.com/Nelcota/NelcotaJS/blob/main/docs/rfcs/0003-async-computations.md) · [Router RFC](https://github.com/Nelcota/NelcotaJS/blob/main/docs/rfcs/0004-router.md)
-- **Project:** [Roadmap](https://github.com/Nelcota/NelcotaJS/blob/main/docs/project/roadmap.md) · [Decisions](https://github.com/Nelcota/NelcotaJS/blob/main/docs/project/decisions.md)
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 📘 Guides
+
+- [Async computations and loading](https://github.com/Nelcota/NelcotaJS/blob/main/docs/guides/async-computations.md)
+- [Debugging, context and recovery](https://github.com/Nelcota/NelcotaJS/blob/main/docs/guides/developer-foundations.md)
+- [Benchmarks](https://github.com/Nelcota/NelcotaJS/blob/main/docs/guides/benchmarks.md)
+
+</td>
+<td width="33%" valign="top">
+
+### 📐 Design
+
+- [Signals RFC](https://github.com/Nelcota/NelcotaJS/blob/main/docs/rfcs/0001-signals.md)
+- [Async computations RFC](https://github.com/Nelcota/NelcotaJS/blob/main/docs/rfcs/0003-async-computations.md)
+- [Router RFC](https://github.com/Nelcota/NelcotaJS/blob/main/docs/rfcs/0004-router.md)
+
+</td>
+<td width="33%" valign="top">
+
+### 🗺️ Project
+
+- [Roadmap](https://github.com/Nelcota/NelcotaJS/blob/main/docs/project/roadmap.md)
+- [Decisions](https://github.com/Nelcota/NelcotaJS/blob/main/docs/project/decisions.md)
+- [Examples](https://github.com/Nelcota/NelcotaJS/tree/main/examples)
+
+</td>
+</tr>
+</table>
 
 ## Contribute
 
-Read the [contributing guide](https://github.com/Nelcota/NelcotaJS/blob/main/CONTRIBUTING.md) and open an issue or pull request on [NelcotaJS](https://github.com/Nelcota/NelcotaJS). Questions go through the [support guide](https://github.com/Nelcota/.github/blob/main/SUPPORT.md), and everyone follows the [code of conduct](https://github.com/Nelcota/.github/blob/main/CODE_OF_CONDUCT.md).
+Issues and pull requests are welcome on [NelcotaJS](https://github.com/Nelcota/NelcotaJS). Start here:
 
-Found a vulnerability? Report it privately through **GitHub Security Advisories**, as described in the [security policy](https://github.com/Nelcota/NelcotaJS/blob/main/SECURITY.md).
+<p>
+<a href="https://github.com/Nelcota/NelcotaJS/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/Contributing_guide-2EA043?style=for-the-badge&logo=github&logoColor=white" alt="Contributing guide"></a>
+<a href="https://github.com/Nelcota/NelcotaJS/issues"><img src="https://img.shields.io/badge/Open_an_issue-1F2328?style=for-the-badge&logo=github&logoColor=white" alt="Open an issue"></a>
+<a href="https://github.com/Nelcota/.github/blob/main/SUPPORT.md"><img src="https://img.shields.io/badge/Support-1F6FEB?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Support"></a>
+<a href="https://github.com/Nelcota/.github/blob/main/CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Code_of_conduct-8250DF?style=for-the-badge&logo=handshake&logoColor=white" alt="Code of conduct"></a>
+</p>
+
+> [!IMPORTANT]
+> **Found a vulnerability?** Don't open a public issue. Report it privately through GitHub Security Advisories, as described in the [security policy](https://github.com/Nelcota/NelcotaJS/blob/main/SECURITY.md).
+
+<br>
 
 <div align="center">
-<br>
-<sub>Also from Nelcota: <a href="https://github.com/Nelcota/Nelcota">Nelcota</a> (Postgres backend) · <a href="https://github.com/Nelcota/NelcotaDeploy">NelcotaDeploy</a> · <a href="https://github.com/Nelcota/NelcotaScreenShare">NelcotaScreenShare</a> · <a href="https://github.com/Nelcota/NelcotaPrompts">NelcotaPrompts</a></sub><br>
-<sub><a href="https://nelcota.com">nelcota.com</a> · MIT licensed</sub>
+
+**Also from Nelcota**
+
+[![Nelcota](https://img.shields.io/badge/Nelcota-Postgres_backend-CE422B?style=flat-square)](https://github.com/Nelcota/Nelcota)
+[![NelcotaDeploy](https://img.shields.io/badge/NelcotaDeploy-Self--hosted_deploys-2496ED?style=flat-square)](https://github.com/Nelcota/NelcotaDeploy)
+[![NelcotaScreenShare](https://img.shields.io/badge/NelcotaScreenShare-Screen_sharing-24A1C1?style=flat-square)](https://github.com/Nelcota/NelcotaScreenShare)
+[![NelcotaPrompts](https://img.shields.io/badge/NelcotaPrompts-Prompt_library-CA4245?style=flat-square)](https://github.com/Nelcota/NelcotaPrompts)
+
+<sub><a href="https://nelcota.com">nelcota.com</a> · NelcotaJS is MIT licensed</sub>
+
 </div>
