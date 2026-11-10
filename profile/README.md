@@ -86,10 +86,14 @@ render(() => <Counter />, document.getElementById("app")!);
 
 ## Get started
 
+Install the runtime, then the compiler and its Vite plugin (Vite 8 or later):
+
 ```sh
 bun add @nelcota/core @nelcota/dom
-bun add -d vite-plugin-nelcota
+bun add -d vite vite-plugin-nelcota @nelcota/compiler
 ```
+
+Register the plugin and point TSX at the NelcotaJS JSX runtime:
 
 ```ts
 // vite.config.ts
@@ -97,6 +101,16 @@ import { defineConfig } from "vite";
 import nelcota from "vite-plugin-nelcota";
 
 export default defineConfig({ plugins: [nelcota()] });
+```
+
+```jsonc
+// tsconfig.json
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "@nelcota/dom"
+  }
+}
 ```
 
 The [examples](https://github.com/Nelcota/NelcotaJS/tree/main/examples) cover a counter, a todo list, async data and a full-stack dashboard.
@@ -130,7 +144,7 @@ Drop-in Vite integration with HMR and source maps. One line in `vite.config.ts`.
 </tr>
 </table>
 
-**Built with** &nbsp;![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white) ![Oxc](https://img.shields.io/badge/Oxc-1F2328?style=flat-square)
+Written in strict TypeScript, compiled with [Oxc](https://oxc.rs), served by [Vite](https://vite.dev) and tested with [Bun](https://bun.sh).
 
 ## Learn more
 
@@ -178,8 +192,8 @@ Issues and pull requests are welcome on [NelcotaJS](https://github.com/Nelcota/N
 
 [![Contributing guide](https://img.shields.io/badge/Contributing_guide-2EA043?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nelcota/NelcotaJS/blob/main/CONTRIBUTING.md)
 [![Open an issue](https://img.shields.io/badge/Open_an_issue-1F2328?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nelcota/NelcotaJS/issues)
-[![Support](https://img.shields.io/badge/Support-1F6FEB?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/Nelcota/.github/blob/main/SUPPORT.md)
-[![Code of conduct](https://img.shields.io/badge/Code_of_conduct-8250DF?style=for-the-badge&logo=handshake&logoColor=white)](https://github.com/Nelcota/.github/blob/main/CODE_OF_CONDUCT.md)
+[![Get support](https://img.shields.io/badge/Get_support-1F6FEB?style=for-the-badge)](https://github.com/Nelcota/.github/blob/main/SUPPORT.md)
+[![Code of conduct](https://img.shields.io/badge/Code_of_conduct-8250DF?style=for-the-badge)](https://github.com/Nelcota/.github/blob/main/CODE_OF_CONDUCT.md)
 
 > [!IMPORTANT]
 > **Found a vulnerability?** Don't open a public issue. Report it privately through GitHub Security Advisories, as described in the [security policy](https://github.com/Nelcota/NelcotaJS/blob/main/SECURITY.md).
