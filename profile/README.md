@@ -117,14 +117,52 @@ The [examples](https://github.com/Nelcota/NelcotaJS/tree/main/examples) cover a 
 
 ## Packages
 
-| Package | What it does |
-| --- | --- |
-| [`@nelcota/core`](https://github.com/Nelcota/NelcotaJS/tree/main/packages/core) | Signals, computeds, effects, `batch`, `untrack`, roots, context and `catchError`. Async computeds live in `@nelcota/core/async`. |
-| [`@nelcota/dom`](https://github.com/Nelcota/NelcotaJS/tree/main/packages/dom) | Renderer, JSX runtime, `For`, `Show`, `spread` and `unsafeHTML`, plus optional context, error boundary and loading entries. |
-| [`@nelcota/compiler`](https://github.com/Nelcota/NelcotaJS/tree/main/packages/compiler) | TSX to cloned templates and fine-grained bindings with source maps, built on Oxc. |
-| [`vite-plugin-nelcota`](https://github.com/Nelcota/NelcotaJS/tree/main/packages/vite-plugin-nelcota) | Vite integration with HMR and source maps. |
+<table>
+<tr>
+<td width="50%" valign="top">
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white) ![Oxc](https://img.shields.io/badge/Oxc-1F2328?style=flat-square)
+### 🧠 [`@nelcota/core`](https://github.com/Nelcota/NelcotaJS/tree/main/packages/core)
+[![npm](https://img.shields.io/npm/v/@nelcota/core?style=flat-square&color=CB3837&label=npm)](https://www.npmjs.com/package/@nelcota/core)
+
+The reactive engine: signals, computeds, effects, `batch`, `untrack`, roots and context. Async computeds live in `@nelcota/core/async`.
+
+</td>
+<td width="50%" valign="top">
+
+### 🖼️ [`@nelcota/dom`](https://github.com/Nelcota/NelcotaJS/tree/main/packages/dom)
+[![npm](https://img.shields.io/npm/v/@nelcota/dom?style=flat-square&color=CB3837&label=npm)](https://www.npmjs.com/package/@nelcota/dom)
+
+Renderer and JSX runtime with `For`, `Show` and `spread`, plus optional context, error boundary and loading entries.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ⚙️ [`@nelcota/compiler`](https://github.com/Nelcota/NelcotaJS/tree/main/packages/compiler)
+[![npm](https://img.shields.io/npm/v/@nelcota/compiler?style=flat-square&color=CB3837&label=npm)](https://www.npmjs.com/package/@nelcota/compiler)
+
+Turns TSX into cloned templates and fine-grained bindings, with source maps. Built on Oxc.
+
+</td>
+<td width="50%" valign="top">
+
+### 🔌 [`vite-plugin-nelcota`](https://github.com/Nelcota/NelcotaJS/tree/main/packages/vite-plugin-nelcota)
+[![npm](https://img.shields.io/npm/v/vite-plugin-nelcota?style=flat-square&color=CB3837&label=npm)](https://www.npmjs.com/package/vite-plugin-nelcota)
+
+Drop-in Vite integration with HMR and source maps. One line in `vite.config.ts`.
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+<sub>Built with</sub><br>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+<img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
+<img src="https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white" alt="Bun">
+<img src="https://img.shields.io/badge/Oxc-1F2328?style=flat-square" alt="Oxc">
+</p>
 
 ## Learn more
 
