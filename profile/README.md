@@ -1,9 +1,9 @@
 <div align="center">
 
-<a href="https://github.com/Nelcota/NelcotaJS">
+<a href="https://nelcota.com">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nelcota/NelcotaJS/main/.github/assets/logo-dark-mode.png">
-    <img src="https://raw.githubusercontent.com/Nelcota/NelcotaJS/main/.github/assets/logo-light-mode.png" alt="NelcotaJS" width="120" height="120">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nelcota/.github/main/profile/logo-dark.svg">
+    <img src="https://raw.githubusercontent.com/Nelcota/.github/main/profile/logo-light.svg" alt="Nelcota" width="320">
   </picture>
 </a>
 
