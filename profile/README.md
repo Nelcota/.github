@@ -29,13 +29,54 @@ Components run once, and only the DOM nodes bound to a signal update.<br>
 
 ## Why NelcotaJS
 
-| | |
-| --- | --- |
-| ⚡ **Signals, not re-renders** | Components run once. The compiler turns `{count()}` into a binding, so a change touches only that text node. |
-| 🛡️ **Safe by default** | Escaped output, blocked `javascript:` URLs, strict CSP and Trusted Types. Raw HTML only through an explicit `unsafeHTML`. |
-| 🧩 **Just TSX** | Full editor support with no custom language server, and source maps back to your code. |
-| 🪶 **Size budgets** | Base `core` + `dom` target 9 kB gzip, enforced in CI. Optional features are measured separately. |
-| 🌐 **Web standards only** | No third-party code shipped to the browser. |
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### ⚡ Signals, not re-renders
+
+Components run once. `{count()}` compiles to a binding, so a change touches only that text node.
+
+</td>
+<td width="33%" valign="top">
+
+### 🛡️ Safe by default
+
+Escaped output, blocked `javascript:` URLs, strict CSP and Trusted Types. Raw HTML only through `unsafeHTML`.
+
+</td>
+<td width="33%" valign="top">
+
+### 🧩 Just TSX
+
+Full editor support, no custom language server, and source maps back to your code.
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+### 🪶 Tiny by budget
+
+`core` + `dom` stay under **9 kB gzip**, enforced in CI. Optional features are measured on their own.
+
+</td>
+<td width="33%" valign="top">
+
+### ⏳ Async built in
+
+Async computeds and `isPending` handle loading, failure, retry and cancellation.
+
+</td>
+<td width="33%" valign="top">
+
+### 🌐 Web standards only
+
+No third-party code shipped to the browser. Just the platform and your app.
+
+</td>
+</tr>
+</table>
 
 ## A taste
 
