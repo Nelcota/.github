@@ -1,32 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img" aria-labelledby="t d">
-  <title id="t">Nelcota: own the whole stack</title>
-  <desc id="d">Data and API, deploy, team and growth tools. Open source and self-hosted.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#050B1F"/>
-      <stop offset="1" stop-color="#0A1A4A"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0.78" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#1F5BFF" stop-opacity="0.45"/>
-      <stop offset="1" stop-color="#1F5BFF" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity="0.05"/>
-    </pattern>
-    <linearGradient id="hl" x1="0" x2="1">
-      <stop offset="0" stop-color="#6E9BFF"/>
-      <stop offset="1" stop-color="#A371F7"/>
-    </linearGradient>
-    <clipPath id="r"><rect width="1280" height="400" rx="24"/></clipPath>
-  </defs>
-  <g clip-path="url(#r)">
-    <rect width="1280" height="400" fill="url(#bg)"/>
-    <rect width="1280" height="400" fill="url(#grid)"/>
-    <rect width="1280" height="400" fill="url(#glow)"/>
-  </g>
-  <svg x="56" y="44" width="230" height="86" viewBox="0 0 2048 768" fill="#FFFFFF">
-  
-  
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-labelledby="t">
+  <title id="t">Nelcota: open-source tools you run on your own server</title>
+  <rect x="0.5" y="0.5" width="1279" height="319" rx="12" fill="#0D1117" stroke="#30363D"/>
+  <svg x="440" y="70" width="400" height="150" viewBox="0 0 2048 768" fill="#FFFFFF">
   <g id="symbol">
     <g id="piece-1">
       <path d="M0 0 C0.529 -0.002 0.529 -0.002 3.204 -0.012 C3.792 -0.011 3.792 -0.011 6.768 -0.009 C8.007 -0.012 9.245 -0.015 10.521 -0.018 C13.975 -0.025 17.429 -0.028 20.883 -0.029 C24.602 -0.03 28.322 -0.038 32.041 -0.045 C40.186 -0.058 48.332 -0.064 56.477 -0.069 C61.567 -0.072 66.657 -0.076 71.746 -0.08 C85.844 -0.092 99.941 -0.103 114.039 -0.106 C114.942 -0.106 115.846 -0.107 116.776 -0.107 C117.682 -0.107 118.587 -0.107 119.52 -0.107 C121.355 -0.108 123.19 -0.108 125.024 -0.109 C125.935 -0.109 126.845 -0.109 127.782 -0.109 C142.495 -0.113 157.208 -0.131 171.921 -0.154 C187.035 -0.178 202.149 -0.19 217.263 -0.192 C225.745 -0.192 234.227 -0.198 242.709 -0.216 C249.94 -0.232 257.172 -0.237 264.403 -0.229 C268.088 -0.225 271.772 -0.225 275.456 -0.24 C303.225 -0.34 329.16 1.751 350.579 21.506 C367.163 38.711 373.326 59.26 373.273 82.843 C373.274 83.899 373.276 84.955 373.277 86.042 C373.281 89.567 373.278 93.091 373.275 96.616 C373.276 99.147 373.278 101.679 373.28 104.21 C373.284 110.363 373.284 116.516 373.281 122.669 C373.279 127.666 373.278 132.664 373.279 137.662 C373.279 138.374 373.28 139.086 373.28 139.82 C373.28 141.266 373.28 142.712 373.281 144.158 C373.284 157.704 373.28 171.251 373.275 184.797 C373.271 196.429 373.271 208.061 373.276 219.693 C373.281 233.203 373.283 246.712 373.28 260.221 C373.28 261.66 373.28 263.099 373.279 264.537 C373.279 265.245 373.279 265.953 373.279 266.682 C373.278 271.68 373.279 276.677 373.282 281.675 C373.285 288.39 373.283 295.105 373.277 301.819 C373.276 304.291 373.276 306.763 373.278 309.234 C373.281 312.592 373.278 315.95 373.273 319.308 C373.275 320.3 373.277 321.292 373.279 322.313 C373.277 323.205 373.274 324.098 373.271 325.017 C373.271 325.793 373.271 326.569 373.271 327.369 C373.146 329.131 373.146 329.131 372.146 330.131 C369.059 330.271 365.996 330.345 362.907 330.37 C361.957 330.378 361.007 330.386 360.029 330.394 C358 330.408 355.971 330.419 353.943 330.427 C351.904 330.438 349.864 330.458 347.825 330.488 C318.556 330.918 293.456 325 271.528 304.553 C267.386 300.343 263.697 295.846 260.146 291.131 C259.675 290.511 259.205 289.891 258.72 289.253 C250.253 276.924 245.611 260.972 244.575 246.241 C244.493 245.091 244.41 243.94 244.325 242.755 C244.295 242.322 244.295 242.322 244.146 240.131 C243.417 240.167 242.688 240.202 241.937 240.239 C207.294 241.873 176.84 240.44 149.438 216.795 C131.364 199.637 121.193 175.901 120.146 151.131 C119.951 141.798 120.017 132.465 120.146 123.131 C119.599 123.137 119.599 123.137 116.835 123.163 C112.696 123.2 108.556 123.223 104.417 123.241 C102.641 123.251 100.866 123.265 99.091 123.282 C70.056 123.562 42.269 119.786 20.633 98.654 C3.702 81.323 -4.691 59.049 -5.206 34.956 C-5.229 33.99 -5.252 33.024 -5.276 32.029 C-5.324 29.998 -5.369 27.966 -5.412 25.935 C-5.48 22.812 -5.557 19.69 -5.636 16.567 C-5.681 14.592 -5.725 12.618 -5.769 10.643 C-5.792 9.705 -5.816 8.766 -5.841 7.799 C-5.858 6.938 -5.875 6.076 -5.892 5.189 C-5.901 4.808 -5.901 4.808 -5.943 2.882 C-5.754 -0.837 -3.098 0.004 0 0 Z " transform="translate(288.85447692871094,146.86857223510742)" fill-rule="evenodd" />
@@ -62,41 +37,5 @@
     </g>
   </g>
 </svg>
-  <text x="64" y="208" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="-2" fill="#FFFFFF">Own the</text>
-  <text x="64" y="278" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="-2" fill="url(#hl)">whole stack.</text>
-  <text x="66" y="324" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="20" fill="#A9B6D6">Data, deploy, team and growth tools in one open-source</text>
-  <text x="66" y="352" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="20" fill="#A9B6D6">ecosystem, running on a server you control.</text>
-  
-  <g transform="translate(802 70)">
-    <rect width="440" height="62" rx="14" fill="#0E1A3D" stroke="#24396F"/>
-    <rect x="0" y="0" width="6" height="62" rx="3" fill="#E3B341"/>
-    <circle cx="36" cy="31.0" r="6" fill="#E3B341"/>
-    <circle cx="36" cy="31.0" r="12" fill="#E3B341" opacity="0.18"/>
-    <text x="62" y="27.0" font-family="'Cascadia Code', 'SF Mono', Consolas, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="2" fill="#E3B341">TEAM</text>
-    <text x="62" y="47.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#FFFFFF">ScreenShare · Prompts</text>
-  </g>
-  <g transform="translate(788 148)">
-    <rect width="440" height="62" rx="14" fill="#0E1A3D" stroke="#24396F"/>
-    <rect x="0" y="0" width="6" height="62" rx="3" fill="#A371F7"/>
-    <circle cx="36" cy="31.0" r="6" fill="#A371F7"/>
-    <circle cx="36" cy="31.0" r="12" fill="#A371F7" opacity="0.18"/>
-    <text x="62" y="27.0" font-family="'Cascadia Code', 'SF Mono', Consolas, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="2" fill="#A371F7">GROWTH</text>
-    <text x="62" y="47.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#FFFFFF">Leads · Website</text>
-  </g>
-  <g transform="translate(774 226)">
-    <rect width="440" height="62" rx="14" fill="#0E1A3D" stroke="#24396F"/>
-    <rect x="0" y="0" width="6" height="62" rx="3" fill="#3FB950"/>
-    <circle cx="36" cy="31.0" r="6" fill="#3FB950"/>
-    <circle cx="36" cy="31.0" r="12" fill="#3FB950" opacity="0.18"/>
-    <text x="62" y="27.0" font-family="'Cascadia Code', 'SF Mono', Consolas, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="2" fill="#3FB950">DEPLOY</text>
-    <text x="62" y="47.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#FFFFFF">NelcotaDeploy</text>
-  </g>
-  <g transform="translate(760 304)">
-    <rect width="440" height="62" rx="14" fill="#0E1A3D" stroke="#24396F"/>
-    <rect x="0" y="0" width="6" height="62" rx="3" fill="#2F6BFF"/>
-    <circle cx="36" cy="31.0" r="6" fill="#2F6BFF"/>
-    <circle cx="36" cy="31.0" r="12" fill="#2F6BFF" opacity="0.18"/>
-    <text x="62" y="27.0" font-family="'Cascadia Code', 'SF Mono', Consolas, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="2" fill="#2F6BFF">DATA &amp; API</text>
-    <text x="62" y="47.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#FFFFFF">Nelcota on PostgreSQL</text>
-  </g>
+  <text x="640" y="262" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="22" fill="#9198A1">Open-source tools you run on your own server.</text>
 </svg>
