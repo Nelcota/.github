@@ -3,11 +3,9 @@
 <a href="https://nelcota.com">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nelcota/.github/main/profile/banner-dark.svg">
-    <img src="https://raw.githubusercontent.com/Nelcota/.github/main/profile/banner-light.svg" alt="Nelcota: own the whole stack. Data, deploy, team and growth tools, open source and self-hosted." width="100%">
+    <img src="https://raw.githubusercontent.com/Nelcota/.github/main/profile/banner-light.svg" alt="Nelcota: open-source tools you run on your own server." width="100%">
   </picture>
 </a>
-
-**Open-source tools you run on your own server.**
 
 A backend on plain PostgreSQL, a deploy panel for your VPS, and apps for the team around them.<br>
 No lock-in: your data stays in your database, on a machine you control.
