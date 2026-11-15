@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-labelledby="t">
-  <title id="t">Nelcota: open-source tools you run on your own server</title>
+  <title id="t">Nelcota: a backend on plain PostgreSQL, and the tools we build around it</title>
   <rect x="0.5" y="0.5" width="1279" height="319" rx="12" fill="#0D1117" stroke="#30363D"/>
   <svg x="440" y="70" width="400" height="150" viewBox="0 0 2048 768" fill="#FFFFFF">
   <g id="symbol">
@@ -37,5 +37,5 @@
     </g>
   </g>
 </svg>
-  <text x="640" y="262" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="22" fill="#9198A1">Open-source tools you run on your own server.</text>
+  <text x="640" y="262" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="22" fill="#9198A1">A backend on plain PostgreSQL, and the tools we build around it.</text>
 </svg>
