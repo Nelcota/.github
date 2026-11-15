@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img" aria-labelledby="t d">
   <title id="t">Nelcota: own the whole stack</title>
-  <desc id="d">Data and API, deploy, interface and team tools. Open source and self-hosted.</desc>
+  <desc id="d">Data and API, deploy, team and growth tools. Open source and self-hosted.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#050B1F"/>
@@ -64,7 +64,7 @@
 </svg>
   <text x="64" y="208" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="-2" fill="#FFFFFF">Own the</text>
   <text x="64" y="278" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="64" font-weight="800" letter-spacing="-2" fill="url(#hl)">whole stack.</text>
-  <text x="66" y="324" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="20" fill="#A9B6D6">Data, deploy, interface and team tools in one open-source</text>
+  <text x="66" y="324" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="20" fill="#A9B6D6">Data, deploy, team and growth tools in one open-source</text>
   <text x="66" y="352" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="20" fill="#A9B6D6">ecosystem, running on a server you control.</text>
   
   <g transform="translate(802 70)">
@@ -80,8 +80,8 @@
     <rect x="0" y="0" width="6" height="62" rx="3" fill="#A371F7"/>
     <circle cx="36" cy="31.0" r="6" fill="#A371F7"/>
     <circle cx="36" cy="31.0" r="12" fill="#A371F7" opacity="0.18"/>
-    <text x="62" y="27.0" font-family="'Cascadia Code', 'SF Mono', Consolas, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="2" fill="#A371F7">INTERFACE</text>
-    <text x="62" y="47.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#FFFFFF">NelcotaJS</text>
+    <text x="62" y="27.0" font-family="'Cascadia Code', 'SF Mono', Consolas, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="2" fill="#A371F7">GROWTH</text>
+    <text x="62" y="47.0" font-family="'Segoe UI', Inter, -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#FFFFFF">Leads · Website</text>
   </g>
   <g transform="translate(774 226)">
     <rect width="440" height="62" rx="14" fill="#0E1A3D" stroke="#24396F"/>
